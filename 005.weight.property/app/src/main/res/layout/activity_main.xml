@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="furkan.com.a005weightproperty.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:text="Gravity AND Weight examples"
+        android:layout_gravity="center"
+        android:textSize="20sp"/>
+
+    <!--
+        Programmatically weight usage :
+
+        LienarLayout.LayoutParams params =
+        new LinearLayout.Layoutparams;
+
+        params.weight = 0.5f;
+    -->
+    
+    <Button
+        android:layout_width="100dip"
+        android:layout_height="55dip"
+        android:layout_gravity="right"
+        android:layout_weight="0.5"
+        android:text="Buton"
+        android:layout_margin="1dip"/>
+
+    <EditText
+        android:background="#FF0000"
+        android:layout_width="230dip"
+        android:layout_height="35dip"
+        android:layout_gravity="left"
+        android:layout_weight="0.4"
+        android:layout_margin="1dip"
+        android:hint="gravity=left"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:background="#FF9876"
+        android:layout_width="230dip"
+        android:layout_height="35dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.1"
+        android:layout_margin="1dip"
+        android:hint="gravity= center_horizontal"
+        android:textAlignment="center"/>
+</LinearLayout>
