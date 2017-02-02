@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="furkan.com.a006absolutelayout.MainActivity">
+
+    <!-- AbsoluteLayout will show differences from device to device.! -->
+
+    <!-- Solution is : RelativeLayout -->
+    <Button
+        android:layout_width="90dip"
+        android:layout_height="60dip"
+        android:text="A"
+        android:id="@+id/button1"
+        android:layout_x="0dp"
+        android:layout_y="0dp"/>
+
+    <Button
+        android:layout_width="90dip"
+        android:layout_height="60dip"
+        android:text="B"
+        android:id="@+id/button2"
+        android:layout_x="292dp"
+        android:layout_y="0dp"/>
+
+    <Button
+        android:layout_width="90dip"
+        android:layout_height="60dip"
+        android:text="C"
+        android:id="@+id/button3"
+        android:layout_x="0dp"
+        android:layout_y="450dp"/>
+
+    <Button
+        android:layout_width="90dip"
+        android:layout_height="60dip"
+        android:text="D"
+        android:id="@+id/button4"
+        android:layout_x="292dp"
+        android:layout_y="450dp"/>
+
+    <Button
+        android:layout_width="90dip"
+        android:layout_height="60dip"
+        android:text="E"
+        android:id="@+id/button5"
+        android:layout_x="146dp"
+        android:layout_y="225dp"/>
+</AbsoluteLayout>
