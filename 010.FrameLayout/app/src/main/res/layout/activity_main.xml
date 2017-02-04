@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="furkan.com.a010framelayout.MainActivity">
+
+    <ImageView
+        android:layout_width="400dip"
+        android:layout_height="500dip"
+        android:id="@+id/imgBackground"
+        android:src="@drawable/android"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:layout_marginLeft="60dip"
+        android:layout_marginTop="280dip"
+        android:text="Hello World!"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp"/>
+</FrameLayout>
